@@ -2,9 +2,10 @@
 class MyPoint:
     def draw(self):
         print("draw")
-        
+
+
 point = MyPoint()
 point.draw()
 print(type(point))
-print(isinstance(point, MyPoint))# True
-print(isinstance(point, int))# False
+print(isinstance(point, MyPoint))  # True
+print(isinstance(point, int))  # False
